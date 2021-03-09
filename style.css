@@ -1,0 +1,43 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.titolo {
+  font-family: 'Arvo', serif;
+  text-align: center;
+  font-size: 2.5em;
+  margin: 0;
+}
+
+.stitolo {
+  font-family: 'Arvo', serif;
+  text-align: center;
+  margin: 0;
+}
+
+.materia {
+  padding: 20px;
+}
+
+h5 {
+  font-size: 1.2em;
+}
+
+.registro {
+
+}
+
+
+@media screen and (max-width: 500px) {
+  .titolo {
+    font-family: 'Arvo', serif;
+    text-align: center;
+    font-size: 1em;
+    margin: 0;
+  }
+
+  h5 {
+    font-size: 0.9em;
+  }
+
+}
