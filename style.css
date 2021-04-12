@@ -26,6 +26,17 @@ h5 {
   font-size: 1rem;
 }
 
+.easter {
+  background-color: aliceblue;
+  width: 10px;
+  height: 10px;
+}
+
+.easter a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
 
 @media screen and (max-width: 500px) {
   .titolo {
