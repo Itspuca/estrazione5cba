@@ -37,6 +37,7 @@ h5 {
   text-decoration: none;
 }
 
+/* PAGINA MOBILE */
 
 @media screen and (max-width: 500px) {
   .titolo {
