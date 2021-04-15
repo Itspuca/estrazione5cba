@@ -1,0 +1,58 @@
+@import "bootstrap/bootstrap"
+
+html, body
+  background-color: aliceblue
+
+.puca
+  text-align: center
+  font-style: italic
+  a
+    text-decoration: none
+    color: black
+    font-weight: bold
+
+.title
+  text-align: center
+  font-size: 4.5rem
+  margin-bottom: 0.5rem
+  color: #101010
+  text-decoration: none
+
+.table
+  margin-top: 2rem
+
+.marz
+  color: aliceblue
+  text-decoration: none
+  &:hover
+    color: aliceblue
+    text-decoration: none
+
+.zeb
+  display: block
+  margin-left: auto
+  margin-right: auto
+  width: 50%
+  margin-top: 3rem
+
+.btn
+  display: block
+  margin-left: auto
+  margin-right: auto
+  width: 8rem
+
+#nav
+  display: flex
+  justify-content: center
+  ul
+    margin: 0
+    padding: 0
+    li
+      padding: 0 0.5rem 0 0.5rem
+      display: inline
+    a
+      color: #222
+      text-decoration: none
+    [aria-current]
+        color: darken(aliceblue, 75%)
+        font-weight: bold
