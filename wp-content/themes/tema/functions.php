@@ -1,7 +1,7 @@
 <?php
 function mytheme_styles_scripts(){
-wp_register_style( 'custom-style', get_stylesheet_directory_uri() . '/css/style.css?'.time(), array(), '1.0.0', 'all' );
-wp_enqueue_style('custom-style');
+wp_enqueue_style( 'custom-style', get_stylesheet_directory_uri() . '/css/style.css?'.time(), array(), '1.0.0', 'all');
+wp_enqueue_script( 'customjs', get_stylesheet_directory_uri() . '/js/puca.js?'.time(), array(), '1.0.0', true);
 }
 
 add_action('wp_enqueue_scripts', 'mytheme_styles_scripts');

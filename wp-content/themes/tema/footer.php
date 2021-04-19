@@ -5,5 +5,6 @@
         <a class="marz" href="<?php echo get_the_permalink(99); ?>">a</a>
     </div>
   </footer>
+  <?php wp_footer(); ?>
   </body>
 </html>
