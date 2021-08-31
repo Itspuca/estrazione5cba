@@ -4,11 +4,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?php wp_head(); ?>
-    <title>Estrazioni 5CBA</title>
+    <title>Corso CBA</title>
   </head>
   <body>
 
-    <a class="title" href="<?php echo get_the_permalink(8); ?>"><h1 class="title">5 CBA</h1></a>
+    <a class="title" href="<?php echo get_the_permalink(8); ?>"><h1 class="title">Corso CBA</h1></a>
     <!-- <div class="container" id="nav">
       <?php
         // wp_nav_menu(array(
